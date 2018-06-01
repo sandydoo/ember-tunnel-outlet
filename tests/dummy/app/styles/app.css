@@ -1,0 +1,12 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.ember-google-map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}

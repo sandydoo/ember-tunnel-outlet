@@ -1,0 +1,1 @@
+export { default } from 'ember-tunnel-outlet/components/tunnel-outlet';

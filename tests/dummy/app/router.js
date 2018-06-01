@@ -7,6 +7,12 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('map',  { path: '/' }, function() {
+    this.route('marker', function() {
+      this.route('info-window');
+    });
+  });
+  this.route('no-map');
 });
 
 export default Router;

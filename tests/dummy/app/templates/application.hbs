@@ -1,3 +1,8 @@
-<h2 id="title">Welcome to Ember</h2>
+<ul style="position: absolute; top: 25%; z-index: 1000; background: white; padding: 2em;">
+  <li>{{link-to "Map only" "map"}}</li>
+  <li>{{link-to "Show marker" "map.marker"}}</li>
+  <li>{{link-to "Show marker tooltip" "map.marker.info-window"}}</li>
+  <li>{{link-to "No map" "no-map"}}</li>
+</ul>
 
 {{outlet}}
